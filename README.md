@@ -12,6 +12,9 @@ Well... At The Start You Must Use `hscript.addBody()` at Your Code. If You Want 
 
 ## Functions
 `hscript.servePage()`
+You Serve the Page from a Specific Port
  > Usage: `hscript.servePage(portNumber)`
+ >
+ > NOTE: Always Put This Function At The Bottom Of Your Code!
  > 
  > Example: `hscript.servePage(3000)`
