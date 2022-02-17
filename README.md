@@ -73,9 +73,9 @@ For Now We Have Only 2 Presets:
 ## Full Example
 
 `const hscript = require("./hscript.js")
-
+const testScript = 'alert("Hello World!")'
 hscript.addBody(
-    hscript.script(`alert("Hello World")`) +
+    hscript.script(testScript) +
 
     hscript.title({
         content: "Hello World!",
@@ -92,7 +92,6 @@ hscript.addBody(
     })
 
 )
-hscript.servePage(3000)
 hscript.servePage(3000)`
 
 # THIS IS A VERY EARLY PROTOTYPE! PLEASE REMEMBER THIS APPLICATION IS TO BE IMPROVED!
