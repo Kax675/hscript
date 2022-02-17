@@ -74,8 +74,8 @@ For Now We Have Only 2 Presets:
 
 `const hscript = require("./hscript.js")
 const testScript = 'alert("Hello World!")' `
-`
-hscript.addBody(
+
+`hscript.addBody(
     hscript.script(testScript) +
 
     hscript.title({
