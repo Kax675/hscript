@@ -72,7 +72,8 @@ For Now We Have Only 2 Presets:
 
 ## Full Example
 
-`const hscript = require("./hscript.js")
+`
+const hscript = require("./hscript.js")
 const testScript = 'alert("Hello World!")'
 hscript.addBody(
     hscript.script(testScript) +
