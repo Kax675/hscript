@@ -2,7 +2,7 @@
 It's A Basic Libary To Easily Create HTML Files via. NodeJS
 
 # Installing and Using
-First: Download Code And Then Import hscript.js Like `const hscript = require("./hscript.js")`
+First: Download Code And Then Import hscript.js Like `const hscript = require("./hscript.js")` After Using the hscript.servePage() Function, go to the `localhost` URL that ends with the port you specified. Example: If You Serve Page In 3000 Port With This: `hscript.servePage(3000)` You Must Go To `localhost:3000`
 
 # How To Use It?
 Well... At The Start You Must Use `hscript.addBody()` at Your Code. If You Want To Create Element You Have To Use It Inside This Function
