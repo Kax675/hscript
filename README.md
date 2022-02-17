@@ -29,3 +29,17 @@ Add Elements To Your Code
  > Example: `hscript.addBody(
     hscript.script("alert("Hello World")") + hscript.title({content: "Test"})
     )`
+
+
+`hscript.title()`
+Adds Title?
+ > Usage: `hscript.title()`
+ >
+ > NOTE: When Using Options, Separate Them With ,
+ > 
+ > Example: `hscript.title({
+        content: content,
+        preset: preset,
+        color: color,
+        style: customStyle
+    })` 
