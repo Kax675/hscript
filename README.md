@@ -18,3 +18,14 @@ You Serve the Page from a Specific Port
  > NOTE: Always Put This Function At The Bottom Of Your Code!
  > 
  > Example: `hscript.servePage(3000)`
+
+
+`hscript.addBody()`
+Add Elements To Your Code
+ > Usage: `hscript.addElement(elements)`
+ >
+ > NOTE: When Using Elements, Separate Them With +
+ > 
+ > Example: `hscript.addBody(
+    hscript.script(`alert("Hello World")`) + hscript.title({content: "Test"})
+    )`
