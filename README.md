@@ -27,5 +27,5 @@ Add Elements To Your Code
  > NOTE: When Using Elements, Separate Them With +
  > 
  > Example: `hscript.addBody(
-    hscript.script(`alert("Hello World")`) + hscript.title({content: "Test"})
+    hscript.script("alert("Hello World")") + hscript.title({content: "Test"})
     )`
