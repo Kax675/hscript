@@ -32,14 +32,45 @@ Add Elements To Your Code
 
 
 `hscript.title()`
-Adds Title?
+Add Title
  > Usage: `hscript.title()`
  >
  > NOTE: When Using Options, Separate Them With ,
  > 
  > Example: `hscript.title({
-        content: content,
-        preset: preset,
-        color: color,
-        style: customStyle
+        content: "Test Title",
+        preset: "textCenter",
+        color: "red",
+        style: "bacground-color: black;"
     })` 
+    
+`hscript.button()`
+Add Button
+ > Usage: `hscript.button()`
+ >
+ > NOTE: When Using Options, Separate Them With ,
+ > 
+ > Example: `hscript.button({
+        content: "Test Button",
+        preset: "documentCenter",
+        color: "red",
+        style: "bacground-color: black;"
+    })`
+    
+    
+`hscript.script()`
+Adds Custom Script
+ > Usage: `hscript.script("Your Script")`
+ >
+ > 
+ > Example: `hscript.script("alert("Hello World!")")` 
+
+## Colors
+For Now We Have Only 4 Colors:
+`red, green, blue, yellow`
+
+## Presets
+For Now We Have Only 2 Presets:
+`documentCenter, textCenter`
+
+# THIS IS A VERY EARLY PROTOTYPE! PLEASE REMEMBER THIS APPLICATION IS TO BE IMPROVED
